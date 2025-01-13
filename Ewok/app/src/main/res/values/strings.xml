@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ewok</string>
+    <string name="hint_ewok_x_position">Ewok X position</string>
+    <string name="hint_ewok_y_position">Ewok Y position</string>
+    <string name="hint_coverage_width">Store coverage width</string>
+    <string name="hint_coverage_height">Store coverage height</string>
+    <string name="button_add_point">Add Ewok</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_show_area">Show area</string>
+    <string name="toast_supply_value_x">Please supply value of X from 0 to 100</string>
+    <string name="toast_supply_value_y">Please supply value of Y from 0 to 100</string>
+    <string name="toast_supply_value_xy">Please enter values for the Ewok X and Y position from 0 to 100</string>
+    <string name="toast_supply_value_width">Please supply value for store coverage width from 0 to 100</string>
+    <string name="toast_supply_value_height">Please supply value for store coverage height from 0 to 100</string>
+    <string name="toast_supply_value_width_height">Please enter values for store coverage width and height</string>
+</resources>

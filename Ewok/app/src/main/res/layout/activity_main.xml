@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint_ewok_x_position"
+            android:id="@+id/editTextXMain"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint_ewok_y_position"
+            android:id="@+id/editTextYMain"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_point"
+            android:id="@+id/buttonAddPointMain"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint_coverage_width"
+            android:id="@+id/editTextCoverageWidth"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint_coverage_height"
+            android:id="@+id/editTextCoverageHeight"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_clear"
+                android:id="@+id/buttonClearMain"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_show_area"
+                android:id="@+id/buttonShowAreaMain"/>
+        </LinearLayout>
+
+        <com.example.ewok.EwokView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/ewokViewMain"/>
+    </LinearLayout>
+</ScrollView>
